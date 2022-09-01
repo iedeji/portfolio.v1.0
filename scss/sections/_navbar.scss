@@ -1,0 +1,23 @@
+@use'../custom' as *;
+@use'../components/mixins' as *;
+
+.menu{
+   @include gradient;
+
+    a{
+        color: $white !important;
+        font-weight: 600;
+        font-size: 1.1rem;
+
+        &:hover{
+            color: #343a40 !important;
+            transition: 1.5s ease-in-out;
+        }
+    }
+    
+}
+
+
+
+
+

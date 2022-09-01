@@ -1,0 +1,12 @@
+@use'../custom' as *;
+
+footer{
+    @include media-breakpoint-down(sm){
+        text-align: center;
+        padding-bottom: 10rem;
+    }
+
+    a{
+        margin-bottom: 3rem;
+    }
+}

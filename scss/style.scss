@@ -1,0 +1,20 @@
+ 
+ @use 'custom';
+
+ //IMPORT COMPONENTS
+ @use 'components/wave';
+ @use 'components/buttons';
+ @use 'components/mixins';
+ @use 'components/typography';
+
+ //IMPORT SECTIONS
+ @use 'sections/navbar';
+ @use 'sections/showcase';
+ @use 'sections/content';
+ @use 'sections/portfolio';
+ @use 'sections/services';
+ @use 'sections/about';
+ @use 'sections/testimonials';
+ @use 'sections/faq';
+ @use 'sections/contact-map';
+ @use 'sections/footer';
